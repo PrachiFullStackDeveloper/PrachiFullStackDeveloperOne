@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        fieldset {
+            height: 40vh;
+            width: 100vw;
+        }
+
+        input {
+            height: 30px;
+            width: 200px;
+            margin-left: 43%;
+            gap: 2px;
+            margin-bottom: 5px;
+        }
+
+        textarea {
+            margin-left: 43%;
+            gap: 2px;
+        }
+
+        button {
+            margin-left: 20%;
+        }
+        .send{
+            margin-left: 43%;
+            height: 30px;
+            width: 200px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <header>
+        <!-- heading -->
+        <div class="heading">Welcome To Prachi Mahajan Portfolio</div>
+        <!-- links  -->
+        <nav>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="./project.html">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--  -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>I am a Passionate Web <br> Developer</h1>
+            <h2>Dedicated To Crafting User-Friendly <br> And Responsive Websites</h2>
+        </div>
+    </section>
+    <!-- about section -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h1 style="font-size: 44px; ">About Me</h1>
+            <p class="About">Prachi Mahajan I am HardWorking Frontend Developer. <br> And I Want To Learn Backend And I
+                Get a Lot Of <br> Interest In Coding. I Like Doing Coding.</p>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <div class="contact-form" id="contact">
+        <form action="Contact" method="POST">
+            <fieldset>
+                <h1 style="text-align: center;">Contact</h1>
+                <input type="text" name="name" placeholder="Your Name" required> <br>
+                <input type="email" name="email" placeholder="Your Email" required> <br> 
+
+                <textarea name="message" placeholder="Your Message" required></textarea> <br>
+            
+                <button class="send" type="submit">Send Message</button>
+            </fieldset>
+        </form>
+    </div>
+
+    
+
+</body>
+
+</html>
